@@ -28,6 +28,9 @@ public class Serie extends Footage {
     }
 
 
+    public int getDuration() { return this.episodes; }
+
+
     
 
 }

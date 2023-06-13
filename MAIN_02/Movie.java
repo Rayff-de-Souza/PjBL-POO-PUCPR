@@ -27,4 +27,7 @@ public class Movie extends Footage {
 
     }
 
+
+    public int getDuration() { return this.duration; }
+
 }

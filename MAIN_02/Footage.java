@@ -1,6 +1,9 @@
 package MAIN_02;
 
-abstract public class Footage {
+import java.io.Serializable;
+
+
+abstract public class Footage implements Serializable {
     
     private String title;
     private String description;
@@ -30,5 +33,7 @@ abstract public class Footage {
     public int getClassification() {
         return this.classification;
     }
+
+    abstract int getDuration();
 
 }
